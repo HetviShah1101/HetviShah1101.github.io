@@ -1,0 +1,121 @@
+h3, ul, li, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+
+    > div {
+        padding: 20px;
+    }
+}
+
+
+.title-container {
+    border-bottom: 1px solid black;
+}
+
+.title{
+    font-family: Georgia;
+    font-size: 30px;
+    color: #0638c0;
+}
+
+li a {
+    font-family: Arial;
+    font-size: 11px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.active {
+    color: blue;
+}
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.main-image-container {
+  background-image: url('https://csci571.com/hw/hw3/images/Cutlery.png');
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  background-position: center;
+
+}
+
+
+.sub_title {
+    font-family: "Times New Roman";
+    color: #0638c0;
+    text-align: center;
+    padding: 15px;
+    font-size: 27px;
+    /*padding-left: 370px;*/
+}
+
+img {
+    height: 340px;
+    width: 420px;
+
+}
+
+
+.flex-container2 {
+    gap: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.align-text {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #0638c0;
+    font-size: 19px;
+}
+
+.flex-container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.ShopNow {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: unset;
+    width: fit-content;
+    border: 0;
+    margin-top: 40px;
+}
+.image-title-1{
+    margin-top: 10px;
+    color: #0638c0;
+    font-size: 40px;
+}
+
+
